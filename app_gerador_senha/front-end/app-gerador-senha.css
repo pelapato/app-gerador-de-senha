@@ -10,15 +10,15 @@ body{
     justify-content:center;
     flex-direction:column;
     font-family:'Poppins',sans-serif;
-    background:#010313;
-    color:rgb(222, 222, 222);
+    background:#101010;
+    color:#EBEBEC;
     width:100%;
     height:100dvh;
 }
 body > p{
     font-weight:300;
     font-size:.8rem;
-    color:#b9b9b9ce;
+    color:#EBEBEC;
 }
 section#app{
     width:320px;
@@ -38,7 +38,7 @@ section#app > div#campo-1 > input[type=text]{
     outline:none;
     border:none;
     font-weight:600;
-    color:#c3c3c368;
+    color:#B5B6BA;
 }
 section#app > div#campo-1 >  button{
     font-size:.8rem;
@@ -47,7 +47,7 @@ section#app > div#campo-1 >  button{
     width:70px;
     background:transparent;
     font-weight:800;
-    color:rgb(0, 255, 110);
+    color:#B5B6BA;
 }
 section#app > div#campos{
     display:flex;
@@ -75,7 +75,7 @@ section#app > div#campos > div#s-1 > input{
     width:100%;
     height:5px;
     -webkit-appearance:none;
-    background:rgb(0, 255, 110);
+    background:transparent;
     border-radius:60px;
 }
 section#app > div#campos > div#s-1 > input::-webkit-slider-thumb{
@@ -83,10 +83,10 @@ section#app > div#campos > div#s-1 > input::-webkit-slider-thumb{
     width:16px;
     height:16px;
     border-radius:50%;
-    accent-color:#ffffff;
+    accent-color:#B5B6BA;
 }
 section#app > div#campos > div#s-1 > article > i{
-    color:rgb(0, 255, 110);
+    color:#BE5DEF;
     font-weight:700;
 }
 section#app > div#campos > div#s-2{
@@ -117,8 +117,8 @@ section#app > div#campos > div#s-2 > div > input::before{
     height:19px;
     top:0;
     left:0;
-    background-color:rgb(4, 4, 12);
-    border:solid rgba(255, 255, 255, 0.245) .1px;
+    background-color:#101010;
+    border:solid #101010 .1px;
 }
 section#app > div#campos > div#s-2 > div > input:checked::before{
     content:"";
@@ -128,7 +128,7 @@ section#app > div#campos > div#s-2 > div > input:checked::before{
     height:19px;
     top:0;
     left:0;
-    background-color:rgb(0, 255, 110);
+    background-color:#0b0c13;
 }
 section#app > div#campos > div#s-2 > div > input:checked::after{
     content:"";
@@ -183,29 +183,29 @@ section#app > div#campos > div#s-4{
 section#app > div#campos > div#s-4 > #btn_gerar_senha{
     width:100%;
     height:36px;
-    background:rgb(0, 255, 110);
+    background-image:#BE5DEF;
     border:none;
     font-weight:bold;
 }
 .fraca:nth-child(1){
-    background:rgb(251, 255, 0);
+    background:#BE5DEF;
     border:none;
 }
 .fraca-media:nth-child(2),
 .fraca-media:nth-child(1){
-    background:rgb(251, 255, 0);
+    background:#BE5DEF;
     border:none;
 }
 .forte-media:nth-child(2),
 .forte-media:nth-child(1),
 .forte-media:nth-child(3){
-    background:rgb(251, 255, 0);
+    background:#BE5DEF;
     border:none;
 }
 .forte:nth-child(2),
 .forte:nth-child(1),
 .forte:nth-child(3),
 .forte:nth-child(4){
-    background:rgb(251, 255, 0);
+    background:#BE5DEF;
     border:none;
 }
